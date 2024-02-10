@@ -30,7 +30,7 @@ function updateTime() {
     deathCounterElement.textContent = "Number of people died during your visit: " + numberOfDeaths;
     videosuploadelement.textContent = "Number of hours of video uploaded during your visit: " + numberOfVideos;
     marriageCounterElement.textContent = "Number of marriages during your visit: " + numberOfMarriages;
-    devorceCounterElement.textContent = "Number of devorces during your visit: " + numberOfDevorces;
+    devorceCounterElement.textContent = "Number of divorces during your visit: " + numberOfDevorces;
 }
 
 setInterval(updateTime, 100); // Update every 100 milliseconds
