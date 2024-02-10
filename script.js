@@ -34,7 +34,7 @@ function updateTime() {
     videosuploadelement.textContent = "Number of hours of video uploaded during your visit: " + numberOfVideos;
     marriageCounterElement.textContent = "Number of marriages during your visit: " + numberOfMarriages;
     devorceCounterElement.textContent = "Number of devorces during your visit: " + numberOfDevorces;
-    co2CounterElement.textContent = "Amount of CO2 emitted during your visit: " + co2;
+    co2CounterElement.textContent = "Amount of CO2 emitted during your visit: " + co2 + "tonnes";
 }
 
 setInterval(updateTime, 100); // Update every 100 milliseconds
