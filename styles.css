@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#birthCounter, #deathCounter, #videosuploaded, #marriageCounter , #devorceCounter{
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
