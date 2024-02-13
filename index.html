@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
+    <meta name="description"
+        content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
     <meta name="keywords" content="time spent, births, deaths, marriages, divorces, YouTube, statistics, real-time">
     <meta name="author" content="Michael Parker">
     <meta property="og:title" content="Time Spent on Site">
-    <meta property="og:description" content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
+    <meta property="og:description"
+        content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
     <meta property="og:url" content="https://michaelparker.tech">
     <meta name="twitter:title" content="Time Spent on Site">
-    <meta name="twitter:description" content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
+    <meta name="twitter:description"
+        content="Calculate the time spent on this site and get real-time statistics on births, deaths, marriages, divorces, and YouTube video uploads during your visit.">
     <title>Time Spent on Site</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Add CSS for mobile responsiveness here */
         @media screen and (max-width: 600px) {
+
             /* Adjust styles for smaller screens */
             .container {
                 padding: 5px;
@@ -23,6 +28,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <div class="banner">
@@ -31,27 +37,48 @@
     </header>
     <main>
         <div class="clock">
-            <h2 id="timer">Time spent on this site: 0 seconds</h2>
+            <h2>Time spent on this site: <div style="display: inline;" id="timer"></div> seconds</h2>
         </div>
+        <br />
         <div class="container">
-            <p id="birthCounter">Number of people born during your visit: 0</p>
-            <p id="deathCounter">Number of people died during your visit: 0</p>
-            <p id="marriageCounter">Number of people who have got married since you have been here: 0</p>
-            <p id="divorceCounter">Number of people who have got divorced since you have been here: 0</p>
-            <p id="co2Counter">The amount of CO2 emitted since you have been here: 0</p>
-            <p id="clothingPerSecond">The amount of clothing thrown out per second: 0</p>
-            <p id="videosUploaded">The hours of video uploaded to YouTube during your visit: 0</p>
-            <p id="foodWastedPerSecond">The amount of food wasted during your visit: 0</p>
+            <p>Number of people born during your visit:
+            <div id="birthCounter">0</div>
+            </p><br /><br /><br />
+            <p>Number of people died during your visit:
+            <div id="deathCounter">0</div>
+            </p><br /><br /><br />
+            <p>Number of people who have got married since you have been here:
+            <div id="marriageCounter">0</div>
+            </p><br /><br /><br />
+            <p>Number of people who have got divorced since you have been here:
+            <div id="divorceCounter">0</div>
+            </p><br /><br /><br />
+            <p>The amount of CO2 emitted since you have been here:
+            <div id="co2Counter">0</div>
+            </p><br /><br /><br />
+            <p>The amount of clothing thrown out per second:
+            <div id="clothingPerSecond">0</div>
+            </p><br /><br /><br />
+            <p>The hours of video uploaded to YouTube during your visit:
+            <div id="videosUploaded">0</div>
+            </p><br /><br /><br />
+            <p>The amount of food wasted during your visit:
+            <div id="foodWastedPerSecond">0</div>
+            </p><br /><br /><br />
         </div>
     </main>
-    
+
     <br>
     <br>
 
     <script src="script.js"></script>
 </body>
 <footer>
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Michaelrbparker" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting." data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="Michaelrbparker" data-description="Support me on Buy me a coffee!"
+        data-message="Thank you for visiting." data-color="#40DCA5" data-position="Right" data-x_margin="18"
+        data-y_margin="18"></script>
     <p>Site created by Michael Parker</p>
 </footer>
+
 </html>

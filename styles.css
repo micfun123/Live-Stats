@@ -21,7 +21,7 @@ header {
     margin-top: 50px;
 }
 
-#timer {
+h2 {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
@@ -33,13 +33,6 @@ header {
 
 }
 
-#birthCounter, #deathCounter, #videosUploaded, #marriageCounter , #divorceCounter, #co2Counter, #clothingPerSecond, #foodWastedPerSecond{
-    font-size: 1.2em;
-    margin-top: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -48,4 +41,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.container>p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline;
+}
+
+.container>div {
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline;
 }
